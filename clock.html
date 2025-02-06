@@ -36,7 +36,8 @@
             const minutes = now.getMinutes().toString().padStart(2, '0');
             const seconds = now.getSeconds().toString().padStart(2, '0');
 
-            const clockDisplay = `${hours}:${minutes}:${seconds}`;
+            // const clockDisplay = `${hours}:${minutes}:${seconds}`;
+            const clockDisplay = `${hours}:${minutes}`;
             document.getElementById('clock').innerText = clockDisplay;
         }
 
